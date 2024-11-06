@@ -322,7 +322,7 @@ This will make future package installations faster and more informative.
 `sudo pacman -S gtk2 gtk3 gtk4 kitty hyprland`
 
 2. **Install additional packages**:
-`sudo pacman -S alsa-utils btop bluez bluez-utils brightnessctl code fastfetch firefox git pipewire-pulse python-requests rofi swaybg waybar wireplumber xdg-desktop-portal-hyprland xdg-user-dirs yazi yay ttf-jetbrains-mono-nerd`
+`sudo pacman -S alsa-utils blueman bluez bluez-utils brightnessctl btop code fastfetch firefox git pipewire-pulse python-requests rofi swaybg ttf-jetbrains-mono-nerd waybar wireplumber xdg-desktop-portal-hyprland xdg-user-dirs yazi`
 
 3.  **Initialize user directories**:
 `xdg-user-dirs-update`
