@@ -322,7 +322,7 @@ This will make future package installations faster and more informative.
 `sudo pacman -S gtk2 gtk3 gtk4 kitty hyprland`
 
 2. **Install additional packages**:
-`sudo pacman -S alsa-utils blueman bluez bluez-utils brightnessctl btop code fastfetch firefox git pipewire-pulse python-requests rofi swaybg ttf-jetbrains-mono-nerd waybar wireplumber xdg-desktop-portal-hyprland xdg-user-dirs yazi`
+`sudo pacman -S alsa-utils blueman bluez bluez-utils brightnessctl btop fastfetch firefox git pipewire-pulse python-requests rofi swaybg ttf-jetbrains-mono-nerd waybar wireplumber xdg-desktop-portal-hyprland xdg-user-dirs yazi`
 
 3.  **Initialize user directories**:
 `xdg-user-dirs-update`
@@ -335,7 +335,7 @@ To enable installation of AUR packages, follow these steps to install Yay:
 `cd yay makepkg -si`
 
 5. **Install AUR packages**:
-`yay -S spotify spicetify-cli webcord wlogout`
+`yay -S spotify spicetify-cli visual-studio-code-bin webcord wlogout`
 
 7.  **Enable and start Bluetooth**:
 `sudo systemctl start bluetooth`
